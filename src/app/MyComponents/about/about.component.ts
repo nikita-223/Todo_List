@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-
+  openAccordian : boolean = false;
+  open(){
+this.openAccordian=true;
+  }
 }

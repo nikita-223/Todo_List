@@ -6,10 +6,11 @@
     <hr class="my-4">
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
     <p class="lead">
-      <a class="btn btn-primary"  role="button">Learn more</a>
+      <button class="btn btn-primary" (click)="open()">Learn more</button>
+      <!-- <a class="btn btn-primary" role="button">Learn more</a> -->
     </p>
   </div>
-    <!-- <div class="accordion" id="accordionExample">
+    <div class="accordion" id="accordionExample" *ngIf="openAccordian">
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -46,6 +47,6 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
 
 </div>
